@@ -18,15 +18,21 @@ body{
 .content{
   width: 600px;
   color: rgb(255, 255, 255);
-  padding-left: 50px;
+  padding-left: 10vw;
   font-size: 17px;
+  
   
 }
 .title{
   font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 10px;
 }
 .desc{
-  white-space: nowrap;
+  font-size: 14px;
+  /* white-space: nowrap; */
+  font-style: italic;
+  color: #c7cac7;
 }
  
 button {

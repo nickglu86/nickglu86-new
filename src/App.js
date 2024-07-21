@@ -22,19 +22,18 @@ function App() {
       >
         <div className="content">
           <h1 className="title">
-            Crafting <span className="gradient-text">Digital Solutions</span> 
+            Crafting  <br />
+            <span className="gradient-text">Digital Solutions</span> 
             <br />
-            for the future of tomorrow
+            of the future
           </h1>
           <p className="desc">
-            Experience the power of smart note-taking and transform the way you
-            work today.
-          </p>
+          Providing architecture services and developing technology applications</p>
           <button>Get Started</button>
         </div>
       </div>
-      <div style={{ position: "relative", width: "45%", marginTop: '100px', overflowl: 'hidden' }}>
-        <Lottie animationData={appAnimation} />
+      <div style={{ position: "relative", width: "45%", marginTop: '100px', overflowl: 'hidden', marginLeft: '-8vw' }}>
+        <Lottie  animationData={appAnimation} />
         <div className="watermark-cover"></div>
       </div>
     </div>
