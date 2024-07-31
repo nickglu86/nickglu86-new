@@ -1,42 +1,60 @@
 import "./App.css";
 import Lottie from "lottie-react";
 import appAnimation from "./assets/app-animation.json";
-
+import natLogo from "./assets/client-logos/naturalint.png";
+import onemroboticsLogo from "./assets/client-logos/1mrobotics.png";
+import aisapLogo from "./assets/client-logos/aisap3.svg";
+import jekoLogo from "./assets/client-logos/jenko.png";
 function App() {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        backgroundColor: "#080808",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "start",
-          alignItems: "center",
-        }}
-      >
+    <main>
+      <section className="cover">
         <div className="content">
-          <h1 className="title">
+          {/* <h1 className="title">
             Crafting  <br />
-            <span className="gradient-text">Digital Solutions</span> 
+            <span className="gradient-text">Digital Solutions</span>
             <br />
             of the future
+          </h1> */}
+          <h1 className="title">
+            Crafting  <span className="gradient-text">Digital</span> <br />
+            <span className="gradient-text"> Solutions </span>
+        
+            of tomorrow
           </h1>
           <p className="desc">
-          Providing architecture services and developing technology applications</p>
-          <button>Get Started</button>
+            Providing development and architecture services and <br />creating high
+            standard technology products{" "}
+          </p>
+          <button onClick={() => alert("Coming Soon... \nBe Patient :)")}>Get Started</button>
         </div>
-      </div>
-      <div style={{ position: "relative", width: "45%", marginTop: '100px', overflowl: 'hidden', marginLeft: '-8vw' }}>
-        <Lottie  animationData={appAnimation} />
-        <div className="watermark-cover"></div>
-      </div>
-    </div>
+
+        <div className="animation">
+          <Lottie animationData={appAnimation} />
+          <div className="watermark-cover"></div>
+        </div>
+      </section>
+      {/* <section>
+        <div className="clients">
+        
+          <ul>
+            <li>
+              <img src={onemroboticsLogo} alt="1mrobotics" />
+            </li>
+            <li>
+              <img src={natLogo} alt="naturalint" />
+            </li>
+
+            <li>
+              <img src={jekoLogo} alt="jeko" />
+            </li>
+            <li>
+              <img src={aisapLogo} alt="aisap" />
+            </li>
+          </ul>
+        </div>
+      </section> */}
+    </main>
   );
 }
 
