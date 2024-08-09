@@ -7,13 +7,14 @@ const Cover = () => {
     <section className="cover">
       <div className="content">
         <h1 className="title">
-          Crafting <span className="gradient-text">Digital</span>
+          Crafting 
           <br />
-          <span className="gradient-text"> Solutions </span> of tomorrow
-        </h1>
+          <span className="gradient-text">Digital Solutions</span>
+          <br />
+          of  the Future
+       </h1>
         <p className="desc">
-          Developing high-standard technology products & providing architecture
-          services with innovative strategies and solutions.
+        We provide architecture services and develop full stack technology applications for start up to enterprise companies 
         </p>
         <button onClick={() => alert("Coming Soon... \nMeantime you can contact me via email: nick.glu86@gmail.com")}>
           Get Started

@@ -16,7 +16,7 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding: 5vw 10vw;
+  padding: 5vw 8vw;
   box-sizing: border-box;
 }
 .animation {
@@ -33,16 +33,24 @@ main {
   z-index: 1;
 }
 .title {
-  font-size: 40px;
-  font-size: 3vw;
-  line-height: 45px;
-  line-height: 3.5vw;
-  margin-bottom: 10px;
+  font-size: 3.6vw;
+  line-height: 4.2vw;
+  margin-bottom: 2vw;
+}
+.gradient-text {
+  font-size: 40px; 
+  font-size: 3.8vw;
+  line-height: 4.6vw;
+  font-weight: bold;  
+  background: linear-gradient(90deg, #aad9d1, #017373);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 .desc {
-  width: 85%;
-  font-size: 1.1vw;
-  line-height: 1.6vw;
+  font-size: 1.4vw;
+  line-height: 2.2vw;
   font-style: italic;
   color: #c7cac7;
 }
@@ -57,7 +65,7 @@ button {
   padding: 10px 24px;
   cursor: pointer;
   border-radius: 11px;
-  font-size: 1vw;
+  font-size: 1.3vw;
   font-weight: 500;
   letter-spacing: 0.8px;
   transition: background-color 0.7s ease;
@@ -66,16 +74,7 @@ button:hover {
   background: linear-gradient(90deg, #1c544b, #1d6969);
   transition: background-color 0.7s ease;
 }
-.gradient-text {
-  font-size: 40px; /* Adjust as needed */
-  font-size: 3vw;
-  font-weight: bold; /* Optional: adjust font weight */
-  background: linear-gradient(90deg, #aad9d1, #017373);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
-}
+
 .clients {
   margin-top: 100px;
   height: 60vh;
@@ -126,8 +125,8 @@ img[alt="1mrobotics"] {
     z-index: 1;
   }
   .title, .gradient-text {
-    font-size: 7.8vw;
-    line-height: 9vw;
+    font-size: 10vw;
+    line-height: 12.4vw;
   }
   .desc {
     width: 100%;
@@ -138,7 +137,7 @@ img[alt="1mrobotics"] {
   }
   button {
     margin-top: 1.5vw;
-    font-size: 3vw;
+    font-size: 4vw;
     font-weight: 500;
     letter-spacing: 0.8px;
   }
