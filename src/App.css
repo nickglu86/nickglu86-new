@@ -116,7 +116,7 @@ img[alt="1mrobotics"] {
     flex-direction: column;
     justify-content: start;
     height: auto;
-    padding: 5vh 2vw;
+    padding: 1vh 2vw 0;
   }
   
   .content {
@@ -145,7 +145,7 @@ img[alt="1mrobotics"] {
   .animation {
     position: relative;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     z-index: 0;
   }
   .animation  svg{
