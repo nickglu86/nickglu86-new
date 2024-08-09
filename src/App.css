@@ -4,6 +4,7 @@ body {
   font-family: "DM Sans", sans-serif;
   margin: 0;
   padding: 0;
+  background-color: rgb(8, 8, 8);
 }
 
 main {
@@ -114,6 +115,8 @@ img[alt="1mrobotics"] {
 @media only screen and (max-width: 720px) {
   .cover {
     flex-direction: column;
+    justify-content: start;
+    height: auto;
     padding: 5vh 2vw;
   }
   
