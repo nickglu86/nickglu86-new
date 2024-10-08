@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(8, 8, 8);
+}
+
+main {
+  background-color: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
+}
+
+/*** Home Page ***/
+
+/* Cover Section */ 
+#cover {
+  height: auto;
+  padding: 1vh 2vw 0;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.title, .gradient-text {
+  font-size: 10vw;
+  line-height: 12.4vw;
+}
+
+.title {
+  margin-bottom: 2vw;
+}
+
+.title span{
+  display: block;
+}
+
+.gradient-text {
+  font-weight: bold;  
+  background: linear-gradient(90deg, #aad9d1, #017373);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.desc {
+  color: #c7cac7;
+  font-size: 4.2vw;
+  font-style: italic;
+  line-height: 5.6vw;
+  width: 100%;
+}
+
+.animation {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.animation  svg{
+  margin-bottom: -5vh;
+}
+
+button {
+  background: linear-gradient(90deg, #3c5b56, #017373);
+  border: none;
+  color: #fff;
+  font-family: "DM Sans";
+  padding: 10px 24px;
+  cursor: pointer;
+  border-radius: 11px;
+  margin-top: 1.5vw;
+  font-size: 4vw;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  transition: background-color 0.7s ease;
+  
+}
+
+button:hover {
+  background: linear-gradient(90deg, #1c544b, #1d6969);
+  transition: background-color 0.7s ease;
+}
+
+
+
+@media only screen and (min-width: 720px) {
+  #cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 5vw 8vw;
+    box-sizing: border-box;
+  }
+
+  .content, .animation {
+    width: 50%;
+  }
+ 
+  .title {
+    font-size: 3.6vw;
+    line-height: 4.2vw;
+    margin-bottom: 2vw;
+  }
+  .gradient-text {
+    font-size: 40px; 
+    font-size: 3.8vw;
+    line-height: 4.6vw;
+  }
+
+  .desc {
+    font-size: 1.4vw;
+    line-height: 2.2vw;
+  }
+
+  button{
+    font-size: 1.3vw;
+  }
+ 
+}
+
